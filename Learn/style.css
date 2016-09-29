@@ -1,0 +1,28 @@
+@font-face {
+    font-family:myfont;
+    src: url(OverdoseSunrise.otf);
+}
+
+@font-face {
+    font-family:my_other_font;
+    src: url(CaviarDreams.ttf);
+}
+
+h1 {
+    color:crimson;
+    font-family:myfont;
+    letter-spacing: 9px;
+}
+
+html {
+    color:dimgrey;
+    font-family:my_other_font;
+}
+
+a[href*="google.fr"]{
+    color: red;
+}
+
+a:hover[href*="google.fr"]{
+    color: forestgreen;
+}
