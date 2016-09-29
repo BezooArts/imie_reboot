@@ -21,8 +21,74 @@ html {
 
 a[href*="google.fr"]{
     color: red;
+    text-decoration-line: none;
 }
 
 a:hover[href*="google.fr"]{
     color: forestgreen;
+    text-decoration-line: none;
+}
+
+a:first-child{
+    color:skyblue;
+    text-decoration-line: none;
+}
+
+
+a:visited[href*="#"]{    
+    color:blue;
+}
+a:hover[href*="#"]{
+    color: aqua;
+}
+
+
+a:visited {
+    text-decoration-line: none;
+    color:darkseagreen;
+}
+
+h1::first-letter {
+    color:gold;
+}
+
+body {
+    background-image: url(sayagata-400px.png);
+    
+}
+
+#button_1 {
+    background-image: url(css-animated-buttons.jpg);
+    background-position: 226px 401px;
+    height: 29px;
+    width: 150px;
+    
+}
+
+#button_1:hover {
+    background-image: url(css-animated-buttons.jpg);
+    background-position: 226px 192px;
+    height: 29px;
+    width: 150px;
+    
+}
+
+#button_2 {
+    background-image: url(css-animated-buttons.jpg);
+    background-position: 393px 401px;
+    height: 29px;
+    width: 150px;
+    
+}
+
+#button_2:hover {
+    background-image: url(css-animated-buttons.jpg);
+    background-position: 393px 192px;
+    height: 29px;
+    width: 150px;
+    
+}
+
+div {
+    display:inline-block; 
 }
